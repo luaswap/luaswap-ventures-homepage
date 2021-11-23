@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
     $('.portfolio-box').slick({
         dots: true,
         rows: 2,
-        infinite: true,
+        infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,

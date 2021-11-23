@@ -9,7 +9,7 @@ body,
 p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: #D8D8D8;
+  color: #d8d8d8;
   line-height: 1.2;
 }
 
@@ -18,7 +18,7 @@ h1,
 h3,
 h4,
 h5,
-h6 {  
+h6 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1em;
@@ -69,12 +69,12 @@ ul {
 .icon-dropdown {
   display: none;
 }
-.main-nav{
+.main-nav {
   height: 78px;
 }
-.main-nav .header-fixed{
+.main-nav .header-fixed {
   position: fixed;
-  top:0;
+  top: 0;
   width: 100%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.9);
@@ -94,8 +94,8 @@ ul {
   display: block;
 }
 .main-nav .navigation li > a:hover,
-.main-nav .navigation li > a.active{
-  color:#fabc46;
+.main-nav .navigation li > a.active {
+  color: #fabc46;
 }
 
 .main-nav .is-child {
@@ -151,7 +151,7 @@ ul {
 .section-banner .banner-wrap h1 {
   font-size: 68px;
   color: #fff;
-  font-family: 'Poller One', cursive;
+  font-family: "Poller One", cursive;
 }
 .section-banner .banner-wrap p {
   color: #fff;
@@ -175,7 +175,7 @@ ul {
   padding: 20px;
   padding: 0 24px 24px 24px;
 }
-.section-about .box-item .title{
+.section-about .box-item .title {
   text-align: left;
 }
 .section-about .desc {
@@ -183,21 +183,21 @@ ul {
   line-height: 24px;
 }
 /* .section-portfolio */
-.section-portfolio{
+.section-portfolio {
   padding-top: 70px;
 }
-.section-portfolio .title{
+.section-portfolio .title {
   margin-bottom: 60px;
 }
-.section-portfolio .portfolio-box{
+.section-portfolio .portfolio-box {
   width: 100%;
 }
-.section-portfolio .item{
+.section-portfolio .item {
   padding: 0 15px;
   margin-bottom: 30px;
   display: inline-block;
 }
-.section-portfolio .item a{
+.section-portfolio .item a {
   display: block;
   background-color: #1a1a1a;
   border-radius: 15px;
@@ -205,27 +205,29 @@ ul {
   text-align: center;
   position: relative;
 }
-.section-portfolio .item img{
+.section-portfolio .item img {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  max-height: 50px;
 }
 
 /* .section-info */
-.section-info{
+.section-info {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.section-info .box-wrap{
+.section-info .box-wrap {
   padding: 15px;
 }
-.section-info .box-insight, .section-info .box-news{
+.section-info .box-insight,
+.section-info .box-news {
   padding: 48px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   border-radius: 40px;
 }
-.section-info .title{
+.section-info .title {
   margin-top: 0;
   text-align: left;
   margin-bottom: 40px;
@@ -242,29 +244,29 @@ ul {
   overflow: hidden;
 }
 
-.section-info .box-title a{
+.section-info .box-title a {
   margin-bottom: 5px;
   line-height: 24px;
-  color: #C3C3C3;
+  color: #c3c3c3;
 }
-.section-info .box-title a:hover{
-  color:#fabc46;
+.section-info .box-title a:hover {
+  color: #fabc46;
 }
 .section-info .box-content {
   margin-left: 15px;
 }
-.section-info .box-content .desc{
+.section-info .box-content .desc {
   margin: 0;
-  color: #8B8B8B;
+  color: #8b8b8b;
 }
-.section-info .view-more{
+.section-info .view-more {
   text-align: center;
 }
 .section-info .view-more a {
   display: inline-block;
   padding: 15px;
   color: #1a1a1a;
-  color:#fabc46;
+  color: #fabc46;
 }
 /* .section-partner */
 .section-partner {
@@ -281,7 +283,7 @@ ul {
 }
 .section-partner .partner-logo a {
   padding: 5px 20px;
-  background-color: #1A1A1A ;
+  background-color: #1a1a1a;
   display: block;
   min-height: 72px;
   border-radius: 15px;
@@ -327,7 +329,7 @@ ul.slick-dots {
     font-size: 35px;
   }
   /* Mobile Navigation */
-  .main-nav{
+  .main-nav {
     height: 90px;
   }
   .nav-mobile {
@@ -370,7 +372,7 @@ ul.slick-dots {
   }
   .nav-wrap .navigation li {
     display: block;
-  }  
+  }
   .main-nav .navigation li a {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -392,10 +394,10 @@ ul.slick-dots {
   .section-banner {
     padding: 0;
   }
-  .section-banner .banner-wrap h1{
+  .section-banner .banner-wrap h1 {
     font-size: 50px;
   }
-  .section-banner .banner-wrap p{
+  .section-banner .banner-wrap p {
     font-size: 30px;
   }
   .section-banner .banner-bg {
@@ -403,7 +405,6 @@ ul.slick-dots {
   }
 
   /* .section-feature */
-
 
   /* .section-system */
 
