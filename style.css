@@ -213,6 +213,9 @@ ul {
   max-height: 50px;
 }
 /* Update Grid */
+.section-portfolio {
+  padding-bottom: 50px;
+}
 .section-portfolio .portfolio-box {
   display: flex;
   flex-wrap: wrap;
