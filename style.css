@@ -212,7 +212,26 @@ ul {
   transform: translate(-50%, -50%);
   max-height: 50px;
 }
-
+/* Update Grid */
+.section-portfolio .portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-portfolio .item {
+  width: 25%;
+}
+@media (max-width: 991px) {
+  .section-portfolio .item {
+    width: 33.33%;
+  }
+}
+@media (max-width: 767px) {
+  .section-portfolio .item {
+    width: 100%;
+  }
+}
 /* .section-info */
 .section-info {
   padding-top: 70px;

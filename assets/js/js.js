@@ -2,54 +2,54 @@
 
 jQuery(document).ready(function ($) {
     $(document).on("scroll", onScroll);
-    $('.partner-box').slick({
-        dots: true,
-        rows: 2,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
-    $('.portfolio-box').slick({
-        dots: true,
-        rows: 2,
-        infinite: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
+    // $('.partner-box').slick({
+    //     dots: true,
+    //     rows: 2,
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 600,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1
+    //             }
+    //         }
+    //     ]
+    // });
+    // $('.portfolio-box').slick({
+    //     dots: true,
+    //     rows: 2,
+    //     infinite: false,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 600,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1
+    //             }
+    //         }
+    //     ]
+    // });
     $('.nav-icon').on('click', function () {
         let element = $(this).closest('.nav-wrap').find('.navigation');
         if (element.hasClass('show')) {
@@ -105,7 +105,7 @@ jQuery(document).ready(function ($) {
     });
     function onScroll(event) {
         var scrollPos = $(document).scrollTop();
-        $('.navigation a').each(function () {
+        $('.navigation a[data=tag]').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
             if (refElement.position().top < scrollPos && refElement.position().top + refElement.height() >= scrollPos) {
